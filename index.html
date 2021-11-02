@@ -9,6 +9,12 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <script src="js/modernizr.custom.js"></script>
     <link rel="stylesheet" href="css/custom.css">
 
     <title>Raffy Amoguis | Full Stack Developer</title>
@@ -16,39 +22,272 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg py-4">
         <div class="container">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href>
+                <img src="img/logo-1.png" alt="" class="rounded-circle" width="50" height="50">
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
                 aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <!-- <span class="navbar-toggler-icon"></span> -->
+                <i class="bi bi-list"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <!-- <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled">Disabled</a>
-                    </li>
-                </ul> -->
-                <form class="d-flex">
-                    <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+                <ul class="navbar-nav ms-auto">
+                    <button class="btn btn-say-hello rounded-pill" type>Say Hello</button>
+                </ul>
             </div>
         </div>
     </nav>
 
+    <div class="header text-center">
+        <h1><b>Designer, Full Stack Developer</b></h1>
+        <h6>I design and code beautifully, I love what I do.</h6>
+
+        <img src="img/logo-1.png" class="rounded-circle mt-4" alt="..." width="204" height="200">
+    </div>
+
+    <div class="intro container-fluid">
+        <div class="p-5">
+            <h2><b>Hi I'm, Raffy. Nice to meet you.</b></h2>
+            <h6>Lorem ipsum dolor sit amet</h6>
+            <h6>Lorem ipsum dolor sit amet</h6>
+        </div>
+    </div>
+
+    <div class="over card">
+        <div class="row justify-content-center">
+            <div class="col-md mt-5">
+                <h1><i class="bi bi-tv ico"></i></h1>
+                <h2>Front-end</h2>
+                <p>I value simple content structure, and thoughtful interactions.</p>
+                <h6 class="color-secondary">Front-end languages I know:</h6>
+                <p>HTML, CSS, Bootstrap</p>
+                <p>Javascript, Jquery, React.js</p>
+                <h6 class="color-secondary">Design Tools</h6>
+                <p>Framer</p>
+                <p>Adobe Photoshop</p>
+            </div>
+            <div class="col-md mt-5">
+                <h1><i class="bi bi-code-slash ico"></i></h1>
+                <h2>Back-end</h2>
+                <p>I like to code things from scratch, and enjoy bringing ideas to life.</p>
+                <h6 class="color-secondary">Back-end languages I know:</h6>
+                <p>PHP, Laravel, Python, Node.js, Java</p>
+                <h6 class="color-secondary">Coding Tools</h6>
+                <p>VS Code</p>
+                <p>Sublime Text</p>
+                <p>Github</p>
+                <p>Terminal</p>
+                <p>Postman</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="lap container-fluid">
+
+    </div> -->
+
+    <div class="container-fluid text-center">
+        <h2 class="f-b">My Recent Work</h2>
+        <p>Here are some projects I worked on recently.</p>
+        <ul class="grid cs-style-2">
+            <li>
+                <figure>
+                    <img src="img/pr-1.jpg" alt="img02">
+                    <figcaption>
+                        <h3>Music</h3>
+                        <span>Jacob Cummings</span>
+                        <a href="http://dribbble.com/shots/1115960-Music">Take a look</a>
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="img/pr-2.png" alt="img04">
+                    <figcaption>
+                        <h3>Settings</h3>
+                        <span>Jacob Cummings</span>
+                        <a href="http://dribbble.com/shots/1116685-Settings">Take a look</a>
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="img/pr-3.png" alt="img06">
+                    <figcaption>
+                        <h3>Game Center</h3>
+                        <span>Jacob Cummings</span>
+                        <a href="http://dribbble.com/shots/1118904-Game-Center">Take a look</a>
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="img/pr-4.jpg" alt="img05">
+                    <figcaption>
+                        <h3>Safari</h3>
+                        <span>Jacob Cummings</span>
+                        <a href="http://dribbble.com/shots/1116775-Safari">Take a look</a>
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="img/pr-5.jpg" alt="img03">
+                    <figcaption>
+                        <h3>Phone</h3>
+                        <span>Jacob Cummings</span>
+                        <a href="http://dribbble.com/shots/1117308-Phone">Take a look</a>
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="img/pr-6.jpg" alt="img01">
+                    <figcaption>
+                        <h3>Camera</h3>
+                        <span>Jacob Cummings</span>
+                        <a href="http://dribbble.com/shots/1115632-Camera">Take a look</a>
+                    </figcaption>
+                </figure>
+            </li>
+        </ul>
+        <!-- <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
+            <div class="col">
+                <div id="card-1" class="card">
+                    <img src=" img/pr-1.jpg" class="card-img test" alt="..." width="384" height="256">
+                    <div class="child-card ">
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores aliquid officia sint
+                            harum explicabo repellat provident,</p>
+                        <button class="btn btn-say-hello rounded-pill" type>Say Hello</button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/pr-2.png" class="card-img-top" alt="..." width="384" height="256">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/pr-3.png" class="card-img-top" alt="..." width="384" height="256">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/pr-4.jpg" class="card-img-top" alt="..." width="384" height="256">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/pr-5.jpg" class="card-img-top" alt="..." width="384" height="256">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/pr-6.jpg" class="card-img-top" alt="..." width="384" height="256">
+                </div>
+            </div>
+        </div> -->
+        <button class="btn btn-say-hello rounded-pill mt-5" type>View More on Github</button>
+    </div>
+
+    <div class="intro container-fluid">
+        <div class="p-5">
+            <h2><b>Ongoing Projects</b></h2>
+        </div>
+    </div>
+
+    <div class="over-on">
+        <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
+            <div class="col">
+                <div class="card w-75 h-75">
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="card w-75 h-75">
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="card w-75 h-75">
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="card w-75 h-75">
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="card w-75 h-75">
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="card w-75 h-75">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid text-center">
+        <h2><b>Interested in collaborating or investing?</b></h2>
+        <h2>I'm always open to discussing product design or work opportunities</h2>
+        <button class="btn btn-say-hello rounded-pill mt-5" type>View More on Github</button>
+    </div>
+
+    <div class="container-fluid footer mt-5">
+        <div class="p-5">
+            <h1 class="mt-5">Living, learning & leveling up one day at a time</h1>
+            <div class="row justify-content-center">
+                <div class="col-sm-1">
+                    <button class="btn ico-footer rounded-circle mt-5" type><i class="bi bi-facebook"></i></button>
+                </div>
+                <div class="col-sm-1">
+                    <button class="btn ico-footer rounded-circle mt-5" type><i class="bi bi-twitter"></i></button>
+                </div>
+                <div class="col-sm-1">
+                    <button class="btn ico-footer rounded-circle mt-5" type><i class="bi bi-github"></i></button>
+                </div>
+                <div class="col-sm-1">
+                    <button class="btn ico-footer rounded-circle mt-5" type><i class="bi bi-envelope"></i></button>
+                </div>
+            </div>
+
+            <h4 class="mt-5">Handcrafted by Me</h4>
+            <h4 class="mt-4">Made with <i class="bi bi-bootstrap"></i></h4>
+
+
+        </div>
+    </div>
+
+
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="js/toucheffects.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // $('.child-card').hide();
+            // $('#card-1').hover(function () {
+            //     $('.child-card').show();
+            //     $('.test').css('filter', 'brightness(50%)');
+            // }, function () {
+            //     $('.child-card').hide();
+            //     $('.test').css('filter', 'brightness(100%)');
+            // })
+        });
+    </script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
