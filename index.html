@@ -4,7 +4,10 @@
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -25,7 +28,7 @@
     <nav class="navbar navbar-expand-lg py-4">
         <div class="container">
             <a class="navbar-brand" href>
-                <img src="img/logo-1.png" alt="" class="rounded-circle" width="50" height="50">
+                <img src="img/RAFFY.png" alt="" class="rounded-circle" width="60" height="60">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
                 aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,7 +37,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav ms-auto">
-                    <button class="btn btn-say-hello rounded-pill" type>Say Hello</button>
+                    <button id="toggle-btn" class="btn rybtn rybtn-primary rounded-pill" type>Say Hello</button>
                 </ul>
             </div>
         </div>
@@ -88,7 +91,7 @@
 
     </div> -->
 
-    <div class="container-fluid text-center">
+    <div class="container-fluid recent-work text-center">
         <h2 class="f-b">My Recent Work</h2>
         <p>Here are some projects I worked on recently.</p>
         <ul class="grid cs-style-2">
@@ -96,9 +99,10 @@
                 <figure>
                     <img src="img/pr-1.jpg" alt="img02">
                     <figcaption>
-                        <h3>Music</h3>
+                        <h3>Lorem</h3>
                         <span>Jacob Cummings</span>
-                        <a href="http://dribbble.com/shots/1115960-Music">Take a look</a>
+                        <a class="visit" href="http://dribbble.com/shots/1115960-Music">Visit<i
+                                class="bi bi-chevron-right is-5"></i></a>
                     </figcaption>
                 </figure>
             </li>
@@ -106,9 +110,10 @@
                 <figure>
                     <img src="img/pr-2.png" alt="img04">
                     <figcaption>
-                        <h3>Settings</h3>
+                        <h3>Lorem</h3>
                         <span>Jacob Cummings</span>
-                        <a href="http://dribbble.com/shots/1116685-Settings">Take a look</a>
+                        <a class="visit" href="http://dribbble.com/shots/1116685-Settings">Visit<i
+                                class="bi bi-chevron-right is-5"></i></a>
                     </figcaption>
                 </figure>
             </li>
@@ -116,9 +121,10 @@
                 <figure>
                     <img src="img/pr-3.png" alt="img06">
                     <figcaption>
-                        <h3>Game Center</h3>
+                        <h3>Lorem</h3>
                         <span>Jacob Cummings</span>
-                        <a href="http://dribbble.com/shots/1118904-Game-Center">Take a look</a>
+                        <a class="visit" href="http://dribbble.com/shots/1118904-Game-Center">Visit<i
+                                class="bi bi-chevron-right is-5"></i></a>
                     </figcaption>
                 </figure>
             </li>
@@ -126,9 +132,10 @@
                 <figure>
                     <img src="img/pr-4.jpg" alt="img05">
                     <figcaption>
-                        <h3>Safari</h3>
+                        <h3>Lorem</h3>
                         <span>Jacob Cummings</span>
-                        <a href="http://dribbble.com/shots/1116775-Safari">Take a look</a>
+                        <a class="visit" href="http://dribbble.com/shots/1116775-Safari">Visit<i
+                                class="bi bi-chevron-right is-5"></i></a>
                     </figcaption>
                 </figure>
             </li>
@@ -136,9 +143,10 @@
                 <figure>
                     <img src="img/pr-5.jpg" alt="img03">
                     <figcaption>
-                        <h3>Phone</h3>
+                        <h3>Lorem</h3>
                         <span>Jacob Cummings</span>
-                        <a href="http://dribbble.com/shots/1117308-Phone">Take a look</a>
+                        <a class="visit" href="http://dribbble.com/shots/1117308-Phone">Visit<i
+                                class="bi bi-chevron-right is-5"></i></a>
                     </figcaption>
                 </figure>
             </li>
@@ -146,53 +154,15 @@
                 <figure>
                     <img src="img/pr-6.jpg" alt="img01">
                     <figcaption>
-                        <h3>Camera</h3>
+                        <h3>Lorem</h3>
                         <span>Jacob Cummings</span>
-                        <a href="http://dribbble.com/shots/1115632-Camera">Take a look</a>
+                        <a class="visit" href="http://dribbble.com/shots/1115632-Camera">Visit<i
+                                class="bi bi-chevron-right is-5"></i></a>
                     </figcaption>
                 </figure>
             </li>
         </ul>
-        <!-- <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
-            <div class="col">
-                <div id="card-1" class="card">
-                    <img src=" img/pr-1.jpg" class="card-img test" alt="..." width="384" height="256">
-                    <div class="child-card ">
-
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores aliquid officia sint
-                            harum explicabo repellat provident,</p>
-                        <button class="btn btn-say-hello rounded-pill" type>Say Hello</button>
-
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <img src="img/pr-2.png" class="card-img-top" alt="..." width="384" height="256">
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <img src="img/pr-3.png" class="card-img-top" alt="..." width="384" height="256">
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <img src="img/pr-4.jpg" class="card-img-top" alt="..." width="384" height="256">
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <img src="img/pr-5.jpg" class="card-img-top" alt="..." width="384" height="256">
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <img src="img/pr-6.jpg" class="card-img-top" alt="..." width="384" height="256">
-                </div>
-            </div>
-        </div> -->
-        <button class="btn btn-say-hello rounded-pill mt-5" type>View More on Github</button>
+        <button class="btn rybtn rybtn-primary" type>View More on Github</button>
     </div>
 
     <div class="intro container-fluid">
@@ -203,49 +173,49 @@
 
     <div class="over-on">
         <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
-            <div class="col">
+            <!-- <div class="col">
                 <div class="card w-75 h-75">
-
+                    <img src="img/pr-1.jpg" alt="img02">
                 </div>
             </div>
             <div class="col">
                 <div class="card w-75 h-75">
-
+                    <img src="img/pr-2.png" alt="img02">
                 </div>
             </div>
             <div class="col">
                 <div class="card w-75 h-75">
-
+                    <img src="img/pr-3.png" alt="img02">
                 </div>
             </div>
             <div class="col">
                 <div class="card w-75 h-75">
-
+                    <img src="img/pr-4.jpg" alt="img02">
                 </div>
             </div>
             <div class="col">
                 <div class="card w-75 h-75">
-
+                    <img src="img/pr-5.jpg" alt="img02">
                 </div>
             </div>
             <div class="col">
                 <div class="card w-75 h-75">
-
+                    <img src="img/pr-6.jpg" alt="img02">
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 
     <div class="container-fluid text-center">
         <h2><b>Interested in collaborating or investing?</b></h2>
         <h2>I'm always open to discussing product design or work opportunities</h2>
-        <button class="btn btn-say-hello rounded-pill mt-5" type>View More on Github</button>
+        <button class="btn rybtn rybtn-primary mt-5" type>View More on Github</button>
     </div>
 
     <div class="container-fluid footer mt-5">
         <div class="p-5">
             <h1 class="mt-5">Living, learning & leveling up one day at a time</h1>
-            <div class="row justify-content-center">
+            <!-- <div class="row justify-content-center">
                 <div class="col-sm-1">
                     <button class="btn ico-footer rounded-circle mt-5" type><i class="bi bi-facebook"></i></button>
                 </div>
@@ -258,6 +228,12 @@
                 <div class="col-sm-1">
                     <button class="btn ico-footer rounded-circle mt-5" type><i class="bi bi-envelope"></i></button>
                 </div>
+            </div> -->
+            <div class="icons-social">
+                <button class="btn ico-footer rounded-circle mt-5" type><i class="bi bi-facebook"></i></button>
+                <button class="btn ico-footer rounded-circle mt-5" type><i class="bi bi-twitter"></i></button>
+                <button class="btn ico-footer rounded-circle mt-5" type><i class="bi bi-github"></i></button>
+                <button class="btn ico-footer rounded-circle mt-5" type><i class="bi bi-envelope"></i></button>
             </div>
 
             <h4 class="mt-5">Handcrafted by Me</h4>
