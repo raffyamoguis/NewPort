@@ -43,7 +43,8 @@
 }
 
 .grid figcaption span:before {
-	content: 'by ';
+	content: 'View Source ';
+	color: rgb(143, 143, 143)
 }
 
 .grid figcaption a {
