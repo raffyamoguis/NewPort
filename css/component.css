@@ -42,8 +42,8 @@
 	color: #fff;
 }
 
-.grid figcaption span:before {
-	content: 'View Source ';
+.grid figcaption span {
+	/* content: 'View Source '; */
 	color: rgb(143, 143, 143)
 }
 
